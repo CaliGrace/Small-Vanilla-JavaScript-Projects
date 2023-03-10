@@ -5,3 +5,7 @@ This is how the Movie Seat Booking App looks like
 This is the Countdown Timer
 
 ![image](https://user-images.githubusercontent.com/80449006/224425139-3f979f63-03b6-4a70-afe7-d1282869b71f.png)
+
+The Typing Game
+
+![image](https://user-images.githubusercontent.com/80449006/224425465-25fb78a1-fb4b-49be-bc05-ad06c33fa7ab.png)
