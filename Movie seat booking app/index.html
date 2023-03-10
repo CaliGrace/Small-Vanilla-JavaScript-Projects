@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie seat booking app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="movie-container">
+            <label>Pick your own movie: </label>
+            <select id="movies">
+                <option value="8">Avengers($8)</option>
+                <option value="10">The chosen($10)</option>
+                <option value="16">The Croods($16)</option>
+                <option value="21">The Utopian($21)</option>
+            </select>
+        </div>
+        <ul class="menus">
+            <li>
+                <div class="seat NA"></div>
+                <label>Not Occupied</label>
+            </li>
+            <li>
+                <div class="seat selected"></div>
+                <label>Selected</label>
+            </li>
+            <li>
+                <div class="seat occupied"></div>
+                <label>Occupied</label>
+            </li>
+        </ul>
+        <div class="showcase">
+            <div class="screen"></div>
+            
+            <div class="row">
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+            </div>
+            <div class="row">
+                <div class="seat occupied"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+            </div>
+            <div class="row">
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat ocuupied"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+            </div>
+            <div class="row">
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+            </div>
+            <div class="row">
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+            </div>
+            <div class="row">
+                <div class="seat"></div>
+                <div class="seat occupied"></div>
+                <div class="seat occupied"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat occupied"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+            </div>
+        </div>
+        <p class="text">You have selected 
+            <span id="count">0</span> seats for a price of <span id="price">0</span></p>
+
+    </div>
+    <footer>
+        <p>Kaleb Girma 2021. Inspired by Brad Traversy | Vanilla js projects</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Countdown Timer</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Countdown Timer</h1>
+        <div class="countdown-contianer">
+            <div class="days-container time-wrapper">
+                <p id="days" class="big-text">00</p>
+                <span>Days</span>
+            </div>
+            <div class="hours-container time-wrapper">
+                <p id="hours" class="big-text">00</p>
+                <span>Hours</span>
+            </div>
+            <div class="minutes-container time-wrapper">
+                <p id="minutes" class="big-text">00</p>
+                <span>Minutes</span>
+            </div>
+            <div class="seconds-container time-wrapper">
+                <p id="seconds" class="big-text">00</p>
+                <span>Seconds</span>
+            </div>
+        </div>
+        <div class="date-container">
+            <div class="date-option">
+                <p>Please enter the date: </p>
+                <input class="date-input" type="date" id="date-selector">
+             </div>
+             <div class="button-container">
+                <!-- <button id="grad-btn">Graduation</button> -->
+                <button id="new-year-btn">New Year</button>
+             </div>
+        </div>
+        <p class="year" id="year">2000</p>
+        <footer>Kaleb Girma 2022 Countdown Timer Project | Vanilla js Project</footer>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

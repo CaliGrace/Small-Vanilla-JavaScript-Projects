@@ -1,0 +1,80 @@
+* {
+    font-family: "Gotham";
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.container {
+    box-shadow: 0 0 10px #ccc;
+    width: 400px;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+/* form control */
+.form-control input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;    
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+.form-control {
+    margin: 5px 0px;
+}
+
+/* submit button */
+.submit {
+    width: 100%;
+    background: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.submit:hover {
+    background: black;
+}
+
+/* heading */
+.heading {
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.heading h2 {
+    margin-bottom: 5px;
+}
+.bar {
+    width: 40px;
+    background: #333;
+    border: none;
+    height: 4px;
+}
+
+/* error class */
+.form-control.error input {
+    border: 2px solid red;
+}
+.form-control .small {
+    color: red;
+    margin-left: 5px;
+    visibility: hidden;
+}
+.form-control.error .small {
+    visibility: visible;
+}
+
+/* success class */
+.form-control.success input {
+    border: 2px solid rgb(10, 253, 10);
+}

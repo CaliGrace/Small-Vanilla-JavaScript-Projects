@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="Lomba Final (1).png">
+    <link rel="stylesheet" href="style.css">
+    <title>Typing Game</title>
+</head>
+<body>
+    <div class="container">
+        <h3>Typing Game</h3>
+        <select id="level" class="level">
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+        </select>
+        <div class="top">
+            <div class="elements-box">
+                 <p class="score-label">Your Score:</p>
+                 <p id="score" class="score">00</p>
+             </div>
+             <div class="content">
+                <h1 id="key-word">Vigilant</h1>
+                <input type="text" placeholder="type here...">
+             </div>
+             <!-- <div class="progress">
+                 <div class="bar">
+
+                 </div>
+            </div> -->
+            <div class="elements-box">
+                <p class="score-label">Time Left:</p>
+                <p id="time" class="score">00</p>
+            </div>
+        </div>
+
+    </div>
+    <div id="gameover-container" class="gameover-container">
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

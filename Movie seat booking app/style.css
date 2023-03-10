@@ -1,0 +1,106 @@
+:root {
+    --bg-color: rgb(114, 112, 112);
+    --color: orange;
+    --background: #333;
+}
+* {
+    font-family: "Gotham light";
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: var(--background);
+    height: 100vh;
+    color: white;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* pick movie menu */
+.movie-container select {
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+/* the seats  */
+.seat {
+    width: 15px;
+    height: 12px;
+    background: var(--bg-color);
+    border-radius: 5px 5px 0 0;
+}
+
+/* the showcase */
+.showcase .seat {
+    margin: 0 5px 5px 0;
+}
+.showcase .seat:not(.occupied) {
+    cursor: pointer;
+}
+.showcase .seat:not(.occupied):hover {
+    transform: scale(1.2);
+}
+.row {
+    display: flex;
+}
+.selected {
+    background-color: var(--color);
+}
+.occupied {
+    background: white;
+}
+
+/* the showcase screen */
+.showcase {
+    perspective: 700px;
+
+}
+.showcase .screen {
+    background: white;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 20px white;
+    transform: rotateX(-20deg);
+}
+/* the menus */
+ul.menus {
+    background: rgb(44, 43, 43);
+    padding: 10px 20px;
+    border-radius: 10px 10px 0 0;
+    width: 400px;
+    color: #777;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+ul li {
+    display: flex;
+    justify-content: space-between;
+}
+ul li div {
+    margin-right: 10px;
+}
+p.text span {
+    color: var(--color);
+}
+
+
+/* the footer section */
+
+footer {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.356);
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: x-small;
+    color: #777;
+}
